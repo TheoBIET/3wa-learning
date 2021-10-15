@@ -1,6 +1,4 @@
-from random import randint as ri
-from random import shuffle as sh
-
+from random import (randint as ri, shuffle as sh)
 class Matrix: 
     def __init__(self, row, col, min=0, max=100):
         self._row = row
